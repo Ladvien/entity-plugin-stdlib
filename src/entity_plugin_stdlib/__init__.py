@@ -8,7 +8,7 @@ from .defaults import PassThroughPlugin
 from .input_adapter import InputAdapterPlugin
 from .output_adapter import OutputAdapterPlugin
 from .prompt import PromptPlugin
-from .smart_selector import SmartSelectorPlugin
+from .smart_selector import SmartToolSelectorPlugin
 from .tool import ToolPlugin
 
 __all__ = [
@@ -16,7 +16,7 @@ __all__ = [
     "InputAdapterPlugin",
     "OutputAdapterPlugin",
     "PromptPlugin",
-    "SmartSelectorPlugin",
+    "SmartToolSelectorPlugin",
     "ToolPlugin",
 ]
 
